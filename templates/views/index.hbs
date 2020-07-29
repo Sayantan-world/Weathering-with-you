@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="icon" href="/images/weather.png">
+
+    <!-- Google fonts grab -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap css grab -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Self css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap JS grab not supposed to b placed here-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" async></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" async></script>
+  </head>
+
+  <body>
+
+    <section id="title">
+      <div class="container-fluid">
+
+
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+          <a class="navbar-brand" href="/">Weathering with you</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="/help">Help</a>
+              </li>
+          </ul>
+
+          </div>
+        </nav>
+
+
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <p>Search a location here</p>
+            <form>
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Location">
+                <small class="form-text text-muted">Please enter a valid name of a place.</small>
+              </div>
+              <button type="submit" class="btn btn-outline-success download-btn"><i class="fas fa-cloud-sun"></i> Let's Go</button>
+            </form>
+            <div class="details">
+              <center><img id="img1" class="img-det" src="images/nobdo.jpg" alt="Greet"></center>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <br>
+            <br>
+            <center>
+              <p id="message-1" class="det"></p>
+              <p id="message-2" class="det"></p>
+              <p id="message-3" class="det"></p>
+              <p id="message-4" class="det"></p>
+              <p id="message-5" class="det"></p>
+              <p id="message-6" class="det"></p>
+              <p id="message-7" class="det"></p>
+              <p id="message-8" class="det"></p>
+              <p id="message-9" class="det"></p>
+              <p id="message-10" class="det"></p>
+            </center>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="foot_row">
+        <a href="https://twitter.com/sayantan_world" target="_blank"><i class="footer_ic fab fa-twitter"></i></a>
+        <a href="https://github.com/Sayantan-world" target="_blank"><i class="footer_ic fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sayantan-pal-3b900bb6/" target="_blank"><i class="footer_ic fab fa-linkedin-in"></i></a>
+      </div>
+
+      <p class="footer_txt">Made by Sayantan Pal</p>
+
+    </footer>
+
+    <script src="/js/app.js"></script>
+  </body>
+
+</html>
