@@ -55,7 +55,7 @@ weatherForm.addEventListener('submit', (e) => {
                 messageSix.textContent = 'Night Temp  :  ' + data.forecast.nightTemp + '°C'
                 messageSeven.textContent = 'Feels like (Night) :  ' + data.forecast.nightFeel + '°C'
                 messageEight.textContent = 'Humidity  : ' + data.forecast.humidity + '%'
-                messageNine.textContent = 'Probability of Rainfall  :  ' + data.forecast.pop
+                messageNine.textContent = 'Chance of Rainfall  :  ' + data.forecast.pop*100 +'%'
                 messageTen.textContent = 'Expect  :  ' + data.forecast.expect
 
                 let wflag = data.forecast.expect
