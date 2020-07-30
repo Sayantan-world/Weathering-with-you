@@ -39,6 +39,7 @@ nodemon src/app.js -e js,hbs
 ```
 4) Browse to http://localhost:3000/
 
+---
 ### Previews
 
 ---
