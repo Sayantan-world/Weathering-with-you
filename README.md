@@ -22,7 +22,22 @@ A Web App which uses OpenWeatherMap API and mapbox API to display the weather.
  - NodeJS
  - ExpressJS
  
+---
+### Instructions to  run in local environment
 
+---
+
+1) Download the files and browse to the downloaded directory using CLI
+2) Run the commands
+```
+npm install
+npm install -g nodemon
+```
+3) To start the local server, port 3000 will be used
+```
+nodemon src/app.js -e js,hbs
+```
+4) Browse to http://localhost:3000/
 
 ### Previews
 
