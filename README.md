@@ -8,7 +8,7 @@ A Web App which uses OpenWeatherMap API and mapbox API to display the weather.
 
 ---
 
-### Languages used in frontend
+### Languages used in Frontend
 
 ---
 
