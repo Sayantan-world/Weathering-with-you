@@ -4,7 +4,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-@media (max-width: 600px) {
+@media (max-width: 770px) {
   body {
     font-family: "Montserrat";
     background-image: url("../images/back1.jpg");
@@ -91,6 +91,7 @@ a{
 /* Navigation bar */
 .navbar {
   padding: 0 0 4.5rem;
+  margin-top: 2rem;
 }
 
 .navbar-brand {
@@ -101,9 +102,19 @@ a{
 @media (max-width: 600px) {
   .navbar-brand {
     font-family: "Ubuntu";
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
   }
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 0.6rem;
+  height: 1rem;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
 }
 
 .nav-item {
@@ -135,6 +146,22 @@ a{
   border-radius: 50%;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
+}
+@media (max-width: 770px) {
+  .but-style {
+    text-align: center;
+  }
+}
+@media (max-width: 770px) {
+  .img-det {
+    width: 60%;
+    max-width: 100%;
+    margin-top: 3rem;
+    max-height: 100%;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+  }
 }
 .img-me {
   width: 60%;
@@ -187,6 +214,7 @@ a{
 }
 #footer {
   background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
 }
 
 .foot_row {
