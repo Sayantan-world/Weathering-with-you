@@ -92,7 +92,7 @@ weatherForm.addEventListener('submit', (e) => {
                     image.src = "images/windy.jpg"
                     image.style.display = 'block';
                 }
-                else if(wflag == 'Haze' || wflag == 'Smoke' || wflag == 'mist'){
+                else if(wflag == 'haze' || wflag == 'smoke' || wflag == 'mist'){
                     image.src = "images/haze.jpg"
                     image.style.display = 'block';
                 }
@@ -100,11 +100,11 @@ weatherForm.addEventListener('submit', (e) => {
                     image.src = "images/fog.png"
                     image.style.display = 'block';
                 }
-                else if(wflag == 'light snow' || wflag == 'Snow' || wflag == 'Heavy snow' || wflag == 'Shower snow' || wflag == 'Light shower snow' || wflag == 'Heavy shower snow'){
+                else if(wflag == 'light snow' || wflag == 'snow' || wflag == 'heavy snow' || wflag == 'shower snow' || wflag == 'light shower snow' || wflag == 'heavy shower snow'){
                     image.src = "images/cold1.jpg"
                     image.style.display = 'block';
                 }
-                else if(wflag == 'Light shower sleet' || wflag == 'Sleet' || wflag == 'Shower sleet' || wflag == 'Light rain and snow' || wflag == 'Rain and snow'){
+                else if(wflag == 'Light shower sleet' || wflag == 'sleet' || wflag == 'shower sleet' || wflag == 'light rain and snow' || wflag == 'rain and snow'){
                     image.src = "images/cold.jpg"
                     image.style.display = 'block';
                 }
